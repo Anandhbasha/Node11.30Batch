@@ -1,9 +1,9 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose  from "mongoose";
 
 const prodSchema = new mongoose.Schema({
     userName:String,
     userMobile:Number,
-    userAge:Number,
+    ccc:Number,
     userAddress:String
 })
 

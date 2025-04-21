@@ -4,6 +4,6 @@ const route = express.Router()
 
 route.get("/",read)
 route.post('/',add)
-route.put('/:id',update)
-route.delete('/:id',delete_data)
+route.put('/:userName',update)
+route.delete('/:userName',delete_data)
 export default route;
